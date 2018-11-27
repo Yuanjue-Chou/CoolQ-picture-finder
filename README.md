@@ -20,7 +20,6 @@
 <br>
 
 #### 1.先搭nodejs的环境……
-<br>
 
 #### 2.内部插件部分：
 虽说原作者甩了那个内部插件的[原址](https://github.com/richardchien/coolq-http-api), 其实不需要管这么多，直接下里面的插件丢到./app里去就好了
