@@ -36,7 +36,7 @@
 <br>
 
 ##### 其他的跟着原readme走就行了。主要就是：
-1.下载插件部分：
+##### 1.下载插件部分：
 
 git clone https://github.com/YKilin/CQ-picfinder-robot.git
 
@@ -46,31 +46,31 @@ cp config.json.default config.json
 
 npm i
 <br>
-2.修改内外插件设置：就是那个qq命名的文件和刚说的机器人部分的config.json
+##### 2.修改内外插件设置：就是那个qq命名的文件和刚说的机器人部分的config.json
 <br>
-3.启动部分：
+##### 3.启动部分：
 
-#没有pm2先安装
+###### 没有pm2先安装
 
 npm install pm2 -g
 
-#首次运行
+###### 首次运行
 
 pm2 start index.js --name="cqpf"
 
-#运行
+###### 运行
 
 pm2 start cqpf
 
-#停止
+###### 停止
 
 pm2 stop cqpf
 
-#重启
+###### 重启
 
 pm2 restart cqpf
 
-#查看日志
+###### 查看日志
 
 pm2 logs cqpf
 <br>
@@ -86,4 +86,4 @@ pm2 logs cqpf
 4.启动搜索时，给出提示：“少女祈祷中……”。对，我他喵的就是东方众
 
 
-ps：config.json.default是原始设置的备份，其他代码也都在了。
+###### ps：config.json.default是原始设置的备份，其他代码也都在了。
